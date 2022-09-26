@@ -1,0 +1,85 @@
+
+
+@media only screen and (min-width: 680px) {
+	body {
+		background-color: #fff;
+	}
+	.handpic{
+		margin-top: -30px;
+		margin-left: auto;
+		margin-top: 20px;
+	}
+	.handpic img{
+		max-height: 700px;
+	}
+	/*****************
+	learn more styles
+	******************/
+
+
+	.learn-more h2{
+		font-size: 70px;
+		margin: 0 0 2em 0;
+		padding: 0;
+		border: none;
+	}
+	.learn-more p{
+		font-size: 2.5em;
+	}
+	.links p {
+		text-decoration: none;
+		margin-top: 10px;
+		padding-bottom: 30px;
+	}
+	.learn-more a{
+		font-size: 1em;
+	}
+	/*#shows{
+		padding: 16;
+	}*/
+
+/********************
+Music
+*********************/
+.music h2{
+	font-size: 70px;
+	margin: 0 0 2em 0;
+	padding: 0;
+	border: none;
+}
+.music p{
+	font-size: 2.5em;
+}
+.music p {
+	text-decoration: none;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+.music a{
+	font-size: 1em;
+}
+	/******************
+	VIDEO STYLES
+	*******************/
+	#video{
+		color: black;
+		font-size: 35px;
+		font-family: "Amatic SC", cursive;
+		padding-top: 100px;
+		padding-left: 2em;
+	}
+	#video iframe{
+		width:560px;
+		height:315px;
+	}
+	.nav-video{
+		margin-top: 100px;
+		margin-left: 3em;
+	}
+	.footer-video{
+		margin-left: 3em;
+		padding: .7em 0;
+		color: #333;
+		font-family: "Amatic SC", cursive;
+	}
+}

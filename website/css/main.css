@@ -115,7 +115,7 @@ LEARN MORE
 
 }
 	#shows{
-		padding-top: 10%;
+		padding-top: 16%;
 		background: #2d2d30;
 	}
 
@@ -125,7 +125,7 @@ Music
 *******************/
 
 #music{
-	padding-top: 10%;
+	padding-top: 16%;
 	background: white;
 }
 .music h2{
@@ -161,7 +161,7 @@ Music
 Contact
 *******************/
 #contact{
-	padding-top: 10%;
+	padding-top: 16%;
 	background: white;
 }
 

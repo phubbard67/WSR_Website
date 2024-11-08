@@ -115,7 +115,7 @@ LEARN MORE
 
 }
 	#shows{
-		padding-top: 5%;
+		padding-top: 10%;
 		background: #2d2d30;
 	}
 
@@ -125,7 +125,7 @@ Music
 *******************/
 
 #music{
-	padding-top: 5%;
+	padding-top: 10%;
 	background: white;
 }
 .music h2{
@@ -161,7 +161,7 @@ Music
 Contact
 *******************/
 #contact{
-	padding-top: 5%;
+	padding-top: 10%;
 	background: white;
 }
 
@@ -193,7 +193,7 @@ Contact
 	padding: 1em 0;
 	font-family: 'Fredericka the Great', cursive;
 	color: #2d2d30;
-	font-size: 3em;
+	font-size: 1.2em;
 }
 
 /******************

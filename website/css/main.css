@@ -171,13 +171,11 @@ Contact
 }
 
 .contact p{
+	padding: 1em 0;
 	font-family: 'Fredericka the Great', cursive;
 	color: #2d2d30;
 	font-size: 1.2em;
 	font-weight:bold;
-	margin: 1em 4em;
-	padding-bottom: 12em;
-	padding-top: 1em;
 }
 
 .contact h2{
@@ -192,26 +190,10 @@ Contact
 }
 
 .contact a{
-	text-decoration: none;
-	text-align: center;
-	margin: 2em auto;
-	color: #B8B7B7;
-	transition-property: color;
-	-webkit-duration: 2s;
-	-moz-duration: 2s;
-	-o-duration: 2s;
-	transition-duration: 2s;
-}
-
-.contact a.selected, a:hover {
-	text-decoration: none;
-	color: #fff;
-	text-shadow: none;
-	-webkit-duration: 1s;
-	-moz-duration: 1s;
-	-o-duration: 1s;
-	transition-property: color;
-	transition-duration: 1s;
+	padding: 1em 0;
+	font-family: 'Fredericka the Great', cursive;
+	color: #2d2d30;
+	font-size: 3em;
 }
 
 /******************

@@ -16,3 +16,12 @@ window.onclick = function(event) {
     }
   }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const currentYear = document.getElementById("currentYear");
+    if(currentYear)
+      {
+        const thisYear = new Date().getFullYear();
+        currentYear.textContent = thisYear;
+      }
+});

@@ -58,6 +58,24 @@ Music
 .music a{
 	font-size: 1em;
 }
+
+.contact h2{
+	font-size: 70px;
+	margin: 0 0 2em 0;
+	padding: 0;
+	border: none;
+}
+.contact p{
+	font-size: 2.5em;
+}
+.contact p {
+	text-decoration: none;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+.contact a{
+	font-size: 1em;
+}
 	/******************
 	VIDEO STYLES
 	*******************/

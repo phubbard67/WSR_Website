@@ -11,7 +11,7 @@ GENERAL
 body {
 	color: #0098cc;
 	background-color: #fff;
-  text-align: center;
+    text-align: center;
 	padding: 0;
 	max-width: 100%;
 }
@@ -25,7 +25,7 @@ body {
 	max-width: 100%;
 }
 .click{
-	font-family: "Amatic SC", cursive;
+	font-family: "Bebas Neue", sans-serif;
 	color: black;
 	font-size: 1.3em;
 }
@@ -70,11 +70,12 @@ LEARN MORE
 
 	.learn-more p {
 		padding-bottom: 1em;
-		font-family: "Amatic SC", cursive;
+		font-family: 'Fredericka the Great', cursive;
 		font-size: 1.2em;
+		font-weight:bold;
 	}
 	.learn-more h2 {
-		font-family: 'Fredericka the Great', cursive;
+		font-family: "Bebas Neue", sans-serif;
 		font-size: 35px;
 		font-weight:bold;
 		text-align: center;
@@ -128,7 +129,7 @@ Music
 	background: white;
 }
 .music h2{
-	font-family: 'Fredericka the Great', cursive;
+	font-family: "Bebas Neue", sans-serif;
 	color: #2d2d30;
 	font-size: 35px;
 	font-weight:bold;
@@ -139,9 +140,10 @@ Music
 }
 .music p{
 	padding: 1em 0;
-	font-family: "Amatic SC", cursive;
+	font-family: 'Fredericka the Great', cursive;
 	color: #2d2d30;
 	font-size: 1.2em;
+	font-weight:bold;
 }
 .music img{
 	max-width: 300px;
@@ -156,16 +158,54 @@ Music
 }
 
 /******************
+Contact
+*******************/
+#contact{
+	padding-top: 16%;
+	background: white;
+}
+
+.contact{
+	background: white;
+	color: black;
+}
+
+.contact p{
+	padding: 1em 0;
+	font-family: 'Fredericka the Great', cursive;
+	color: #2d2d30;
+	font-size: 1.2em;
+	font-weight:bold;
+}
+
+.contact h2{
+	font-family: "Bebas Neue", sans-serif;
+	color: #2d2d30;
+	font-size: 35px;
+	font-weight:bold;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	margin: 0 1em;
+	padding-bottom:
+}
+
+.contact a{
+	padding: 1em 0;
+	font-family: 'Fredericka the Great', cursive;
+	color: #2d2d30;
+	font-size: 1.2em;
+}
+
+/******************
 FOOTER
 *******************/
 	.nav{
 		margin-top: 100px;
 	}
 	.footer{
+		font-family: "Bebas Neue", sans-serif;
 		padding: .7em 0;
-		color: #333;
-		font-family: "Amatic SC", cursive;
-		font-size: 1.15em;
+		color: black;
 	}
 	.nav img {
 		margin: 0 5px 5px 5px;
@@ -178,7 +218,7 @@ FOOTER
 	BUTTON STYLE
 	***********************/
 	.dropbtn {
-			font-family: "Amatic SC", cursive;
+		font-family: "Bebas Neue", sans-serif;
 	    color: black;
 	    padding: 16px;
 			border: none;
@@ -209,7 +249,8 @@ FOOTER
 	}
 
 	.dropdown-content {
-			font-family: 'Amatic SC', cursive;
+		font-family: 'Fredericka the Great', cursive;
+		font-weight:bold;
 			font-size: 1.7em;
 	    display: none;
 			position: absolute;

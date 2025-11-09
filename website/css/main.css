@@ -157,6 +157,9 @@ Music
 	font-size: 1.8em;
 }
 
+#MusicStream{
+	border-radius: 50%;
+}
 /******************
 Contact
 *******************/

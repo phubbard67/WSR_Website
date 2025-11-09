@@ -164,12 +164,13 @@ Music
 Contact
 *******************/
 #contact{
-	padding-top: 25%;
-	margin-bottom: 25%;
+
 	background: white;
 }
 
 .contact{
+    padding-top: 25%;
+    padding-bottom: 25%;
 	background: white;
 	color: black;
 }

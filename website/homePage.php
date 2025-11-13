@@ -1,6 +1,3 @@
-<?php
-include 'php/main.php';
-?>
 <!DOCTYPE HTML>
 <!-- Web design and development by Paul Hubbard-->
 <html lang='en'>

@@ -1,3 +1,6 @@
+<?php
+include 'php/main.php';
+?>
 <!DOCTYPE HTML>
 <!-- Web design and development by Paul Hubbard-->
 <html lang='en'>
@@ -34,7 +37,7 @@
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn">Stuff</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="homePage.html">Home</a>
+    <a href="homePage.php">Home</a>
     <a href="#music">Music</a>
     <a href="#shows">Shows</a>
     <a href="#contact">Contact</a>
@@ -115,7 +118,7 @@
 
         <a href="https://walkingstalkingrobots.bandcamp.com/releases" target="_blank"><img src="img/icon_bandcamp.png" id="MusicStream" alt="Bandcamp Logo." /></a>
       </div>
-  <a href="homePage.html"><p><u>TOP</u></p></a>
+  <a href="homePage.php"><p><u>TOP</u></p></a>
 </div>
 
   <div id="shows">
@@ -128,7 +131,7 @@
     <!-- Here lies the last show we played. May it rest in rock heaven... I hope I get to go to rock heaven... Sounds pretty cool... -->
    <!-- <a href="https://www.instagram.com/shanghaitunnelbar/" target="_blank"><p>The Shanghai Tunnel Bar, November 8th, 2025</p><p>Portland OR.</p> -->
     </div>
-    <a href="homePage.html"><p><u>TOP</u></p></a>
+    <a href="homePage.php"><p><u>TOP</u></p></a>
    </div>
 </a>
   </div>
@@ -138,7 +141,7 @@
         <p>comments or song requests to</p>
        <p><a href="mailto:walkingstalkingrobots@gmail.com"><u>walkingstalkingrobots@gmail.com</u></a></p>
 
-    <a href="homePage.html"><p><u>TOP</u></p></a>
+    <a href="homePage.php"><p><u>TOP</u></p></a>
    </div>
 
 

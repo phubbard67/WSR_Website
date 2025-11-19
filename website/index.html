@@ -1,35 +1,210 @@
 <!DOCTYPE HTML>
 <!-- Web design and development by Paul Hubbard-->
 <html lang='en'>
+
 <head>
- <meta charset="utf-8">
- <meta http-equiv='X-UA-Compatible' content='IE=edge'>
- <meta name='viewport' content='width=device-width, initial-scale=1'>
- <title>Walking Stalking Robots</title>
+  <meta charset="utf-8">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Walking Stalking Robots</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/main.css">
-
-     <link rel="stylesheet" href="css/responsive.css">
-
-     <!-- Hide this line for IE (needed for Firefox and others) -->
-     <![if !IE]>
-     <link rel="icon" href="https://walkingstalkingrobots.com/images/wsr.jpg" type="image/x-icon" />
-     <![endif]>
-     <!-- This is needed for IE -->
-     <link rel="shortcut icon" href="https://walkingstalkingrobots.com/img/wsr.jpg" type="image/ico" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Hide this line for IE (needed for Firefox and others) -->
+  <![if !IE]>
+  <link rel="icon" href="https://walkingstalkingrobots.com/images/wsr.jpg" type="image/x-icon" />
+  <![endif]>
+  <!-- This is needed for IE -->
+  <link rel="shortcut icon" href="https://walkingstalkingrobots.com/img/wsr.jpg" type="image/ico" />
 
 </head>
 
 <body>
   <!-- dropdown menu button -->
 
-	<div class="handpic">
-	   <a href="homePage.html" alt="Original WSR Logo with a robot hand holding a cassette tape that says Walking Stalking Robots on the label."><img src ="img/wsr copy.jpg"></a>
-	</div>
-  <p class="click">click logo to enter</p>
-</header>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Stuff</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="homePage.html">Home</a>
+            <a href="#music">Music</a>
+            <a href="#shows">Shows</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="img/walking_stalking_robots_live_at_kellys_olympian_portland_oregon.jpg"
+          alt="Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing at Kelly's Olympian in Portland, OR."
+          width="1080px" height="600px">
+        <div class="carousel-caption">
+          <a href="https://maps.app.goo.gl/v9p7cmXRVefuSbgg8" target="_blank">
+            <p>Live at Kelly's Olympian</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/walking_stalking_robots_fourth_of_july_show_large_crowd.jpg"
+          alt="Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing for a big croud on the US holiday Indenpence Day, or the Fourth of July."
+          width="1080px" height="700px">
+        <div class="carousel-caption">
+          <p> Fourth of July Show</p>
+          <a href="https://www.mathieulewisrolland.com/bio" target="_blank">
+            <p>Photo by: Mathieu Lewis-Rolland</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/walking_stalking_robots_house_show.jpeg"
+          alt="Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing for a house show in Portland, OR."
+          width="1080px" height="800px">
+        <div class="carousel-caption">
+          <p>Live in a House</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/walking_stalking_robots_fourth_of_july_show_side_profile.jpg"
+          alt="Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner)  preforming on a stage for the US holiday Indenpence Day, or the Fourth of July."
+          width="1200px" height="700px">
+        <div class="carousel-caption">
+          <p> Fourth of July Show</p>
+          <a href="http://www.patrickluhrs.com" target="_blank">
+            <p>Photo by: Patrick Luhrs</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div id="music">
+  </div>
+  <div class='music'>
+    <h2>Music</h2>
+    <div class='links'>
+      <a href="https://soundcloud.com/walking-stalking-robots" target="_blank"><img src="img/WSR_disc_img.jpg"></img>
+        <p>Demonstration</p>
+      </a>
+    </div>
+    <div class="nav">
+      <!-- We don't really use Facebook at all anymore, so there is no point keeping it visible. 
+              But... to the nerdy individual who is reading these comments, I hope you enjoy the Philip K Dick Reference / play on a title of his. :) -->
+      <!-- <a href='https://www.facebook.com/dorobotssleepwithelectricdreams' target="_blank"><p>
+      			 <img src= "img/facebook.png" alt="Facebook Logo" /></a> -->
+
+      <a href="https://soundcloud.com/walking-stalking-robots" target="_blank"><img src="img/soundcloud.png"
+          id="MusicStream" alt="Soundcloud Logo" /></a>
+
+      <a href="https://walkingstalkingrobots.bandcamp.com/releases" target="_blank"><img src="img/icon_bandcamp.png"
+          id="MusicStream" alt="Bandcamp Logo." /></a>
+    </div>
+    <a href="homePage.html">
+      <p><u>TOP</u></p>
+    </a>
+  </div>
+
+  <div id="shows">
+  </div>
+  <div class='learn-more'>
+    <h2>Shows</h2>
+    <div class='links'>
+      <a href="img/ScottBeer.jpg" alt="Scott drinking a beer." target="_blank">
+        <p>We have no shows to announce at this time. <p>We're too busy with other stuff...</p>
+        </p>
+
+        <!-- Here lies the last show we played. May it rest in rock heaven... I hope I get to go to rock heaven... Sounds pretty cool... -->
+        <!-- <a href="https://www.instagram.com/shanghaitunnelbar/" target="_blank"><p>The Shanghai Tunnel Bar, November 8th, 2025</p><p>Portland OR.</p> -->
+    </div>
+    <a href="homePage.html">
+      <p><u>TOP</u></p>
+    </a>
+  </div>
+  </a>
+  </div>
+  <div class='contact' id="contact">
+    <h2>How to Reach Out</h2>
+    <p>Please send any questions,</p>
+    <p>comments or song requests to</p>
+    <p><a href="mailto:walkingstalkingrobots@gmail.com"><u>walkingstalkingrobots@gmail.com</u></a></p>
+
+    <a href="homePage.html">
+      <p><u>TOP</u></p>
+    </a>
+  </div>
+
+
+  <div class="footer">
+    <p> &copy; Walking Stalking Robots. 2014 - <span id="currentYear"></span></p>
+  </div>
+
+
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+  </script>
+
+
+  <script src="scripts/myscripts.js"></script>
+
+</body>
+
+</html>

@@ -1,3 +1,2 @@
 [[plugins]]
   package = "@netlify/plugin-emails"
-  NETLIFY_EMAILS_PROVIDER = 

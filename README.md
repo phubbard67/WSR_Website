@@ -14,4 +14,4 @@ This website and its code is copywritten under the [Digital Millennium Copywrigh
 ## Contact
 The Band: walkingstalkingrobots@gmail.com
 
-The Creator: [Paul Hubbard](https://github.com/phubbard67)
+The Creator: [Paul Hubbard Github](https://github.com/phubbard67), Email: phubbard67@gmail.com

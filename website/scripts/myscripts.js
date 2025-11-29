@@ -2,6 +2,30 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function getWeatherInfo() {
+  const request = require('request');
+  var API_KEY = 'cee21d7bcdb1e3973d14849c3cda02b4';
+
+  const apiKey = 'cee21d7bcdb1e3973d14849c3cda02b4'; // Replace with your OpenWeatherMap API key
+  const city = 'Portland'; // Replace with your desired city
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; // Added units=metric for Celsius
+
+  fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Network response was not ok: ${response.statusText}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log(`Current temperature in ${city}: ${data.main.temp}°C`);
+      console.log(`Weather description: ${data.weather[0].description}`);
+    })
+    .catch(error => {
+      console.error('There was a problem with your fetch operation:', error);
+    });
+}
+
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
@@ -27,3 +51,4 @@ document.addEventListener('DOMContentLoaded', function () {
         currentYear.textContent = thisYear;
       }
 });
+

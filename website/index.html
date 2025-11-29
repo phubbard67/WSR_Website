@@ -8,6 +8,9 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>Walking Stalking Robots</title>
 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -158,13 +161,32 @@
   </div>
   </div>
   
+  <!-- The Contact Section -->
   <div class='contact' id="contact">
-    <h2>How to Reach Out</h2>
-    <p>Please send any questions,</p>
-    <p>comments or song requests to</p>
-    <p><a href="mailto:walkingstalkingrobots@gmail.com"><u>walkingstalkingrobots@gmail.com</u></a></p>
-
-    <a href="homePage.html">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2>CONTACT</h2>
+        <p><i>Feel Free To Reach Out</i></p>
+        <div class="w3-row w3-padding-32">
+          <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width:30px"></i> Portland, US<br>
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: <a href="mailto:walkingstalkingrobots@gmail.com">walkingstalkingrobots@gmail.com</a><br>
+          </div>
+          <div class="w3-col m6">
+            <form name="contact" method="POST" data-netlify="true">
+              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                </div>
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                </div>
+              </div>
+              <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+              <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
       <p><u>TOP</u></p>
     </a>
   </div>

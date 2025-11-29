@@ -1,3 +1,4 @@
+//-------------------------------------------------------------------Helper Functions
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -6,10 +7,9 @@ function getWeatherInfo() {
   const request = require('request');
   var API_KEY = 'cee21d7bcdb1e3973d14849c3cda02b4';
 
-  const apiKey = 'cee21d7bcdb1e3973d14849c3cda02b4'; // Replace with your OpenWeatherMap API key
-  const city = 'Portland'; // Replace with your desired city
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; // Added units=metric for Celsius
-
+  const apiKey = 'cee21d7bcdb1e3973d14849c3cda02b4'; 
+  const city = 'Portland'; 
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; 
   fetch(url)
     .then(response => {
       if (!response.ok) {
@@ -25,7 +25,9 @@ function getWeatherInfo() {
       console.error('There was a problem with your fetch operation:', error);
     });
 }
+//---End Helper Functions
 
+//--------------------------------------------------------Event Handlers
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
@@ -41,8 +43,6 @@ window.onclick = function(event) {
   }
 }
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
   const currentYear = document.getElementById("currentYear");
     if(currentYear)
@@ -51,4 +51,5 @@ document.addEventListener('DOMContentLoaded', function () {
         currentYear.textContent = thisYear;
       }
 });
+//---End Event Handlers 
 

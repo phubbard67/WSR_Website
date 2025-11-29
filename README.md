@@ -1,1 +1,18 @@
-# WSR_Website
+# Walking Stalking Robots Website
+This website was built by Paul Hubbard for the band Walking Stalking Robots
+
+## Technologies Used
+The project was built as a Node JS application and used some open source designs from [W3Schools]https://www.w3schools.com/
+
+It also uses the weather information from the open source weather application openweathermap.org as a random number generator. 
+
+It is hosted by Netlify
+
+## License
+
+This website and its code is copywritten under the [Digital Millennium Copywright Act](https://www.congress.gov/bill/105th-congress/house-bill/2281)
+
+## Contact
+The Band: walkingstalkingrobots@gmail.com
+
+The Creator: [Paul Hubbard](https://github.com/phubbard67)

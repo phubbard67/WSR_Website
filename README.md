@@ -2,7 +2,7 @@
 This website was built by Paul Hubbard for the band Walking Stalking Robots
 
 ## Technologies Used
-The project was built as a Node JS application and used some open source designs from [W3Schools](https://www.w3schools.com/)
+The project was built as a Node JS application and used some open source designs from [W3Schools](https://www.w3schools.com/) while also utilizing [Bootstrap](https://getbootstrap.com/).
 
 It also uses some weather information from the open source weather application [OpenWeather](https://openweathermap.org/) as a random number generator. 
 

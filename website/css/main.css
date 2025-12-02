@@ -6,8 +6,6 @@ GENERAL
 	border: 1px dashed #999;
 }*/
 
-
-
 body {
 	color: #0098cc;
 	background-color: #fff;
@@ -207,6 +205,12 @@ FOOTER
 		font-family: "Bebas Neue", sans-serif;
 		padding: .7em 0;
 		color: black;
+	}
+	.footer a{
+		padding: 1em 0;
+		font-family: 'Fredericka the Great', cursive;
+		color: #2d2d30;
+		font-size: 1.2em;
 	}
 	.nav img {
 		margin: 0 5px 5px 5px;

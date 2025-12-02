@@ -18,8 +18,7 @@ function getWeatherInfo() {
       return response.json();
     })
     .then(data => {
-      console.log(`Current temperature in ${city}: ${data.main.temp}°C`);
-      console.log(`Weather description: ${data.weather[0].description}`);
+      console.log(`Cloud Percentage in ${city}: ${data.clouds.all}%`);
     })
     .catch(error => {
       console.error('There was a problem with your fetch operation:', error);
@@ -50,6 +49,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const thisYear = new Date().getFullYear();
         currentYear.textContent = thisYear;
       }
+
+      getWeatherInfo();
 });
 //---End Event Handlers 
 

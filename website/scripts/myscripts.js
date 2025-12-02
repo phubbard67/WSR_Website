@@ -4,9 +4,7 @@ function myFunction() {
 }
 
 function getWeatherInfo() {
-  const request = require('request');
-  var API_KEY = 'cee21d7bcdb1e3973d14849c3cda02b4';
-
+  
   const apiKey = 'cee21d7bcdb1e3973d14849c3cda02b4'; 
   const city = 'Portland'; 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; 
@@ -49,6 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const thisYear = new Date().getFullYear();
         currentYear.textContent = thisYear;
       }
+
+      getWeatherInfo();
 });
 //---End Event Handlers 
 

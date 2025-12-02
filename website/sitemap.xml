@@ -1,101 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
    <url>
-
       <loc>https://www.walkingstalkingrobots.com/</loc>
-
       <lastmod>2025-11-09</lastmod>
-
       <changefreq>weekly</changefreq>
-
       <priority>1.0</priority>
-
    </url>
-      <url>
-
-      <loc>https://www.walkingstalkingrobots.com/homepage</loc>
-
+   <url>
+      <loc>https://www.walkingstalkingrobots.com/#music</loc>
       <lastmod>2025-11-09</lastmod>
-
       <changefreq>weekly</changefreq>
-
-      <priority>0.9</priority>
-
-      <image:image>
-
-        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_fourth_of_july_show_large_crowd.jpg</image:loc>
-
-        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing for a big croud on the US holiday Indenpence Day, or the Fourth of July.</image:title>
-
-        <image:caption>Walking Stalking Robots Playing on the Fourth of July</image:caption>
-
-      </image:image>
-
-      <image:image>
-
-        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_fourth_of_july_side_profile.jpg</image:loc>
-
-        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing for a big croud on the US holiday Indenpence Day, or the Fourth of July.</image:title>
-
-        <image:caption>Walking Stalking Robots Playing on the Fourth of July</image:caption>
-
-      </image:image> 
-
-     <image:image>
-
-        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_house_show.jpg</image:loc>
-
-        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing a house show in Portland, Oregon.</image:title>
-
-        <image:caption>Walking Stalking Robots House Show</image:caption>
-
-      </image:image>
-
-      <image:image>
-
-        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_live_at_kellys_olympian_portland_oregon.jpg</image:loc>
-
-        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing live at Kelly's Olympian in Portland Oregon.</image:title>
-
-        <image:caption>Walking Stalking Robots Playing at Kelly's Olympian in Portland, Oregon</image:caption>
-
-      </image:image> 
-      
-   </url>
-      <url>
-
-      <loc>https://www.walkingstalkingrobots.com/homepage#music</loc>
-
-      <lastmod>2025-11-09</lastmod>
-
-      <changefreq>weekly</changefreq>
-
       <priority>0.8</priority>
-
+   </url>
+   <url>
+      <loc>https://www.walkingstalkingrobots.com/#shows</loc>
+      <lastmod>2025-11-09</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+   <loc>https://www.walkingstalkingrobots.com/#contact</loc>
+      <lastmod>2025-11-09</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
    </url>
       <url>
-
+      <loc>https://www.walkingstalkingrobots.com/homepage#music</loc>
+      <lastmod>2025-11-09</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
       <loc>https://www.walkingstalkingrobots.com/homepage#shows</loc>
-
       <lastmod>2025-11-09</lastmod>
-
       <changefreq>weekly</changefreq>
-
       <priority>0.7</priority>
-
    </url>
-         <url>
-
+   <url>
       <loc>https://www.walkingstalkingrobots.com/homepage#contact</loc>
-
       <lastmod>2025-11-09</lastmod>
-
       <changefreq>weekly</changefreq>
-
       <priority>0.6</priority>
-
    </url>
-
+   <url>
+      <loc>https://www.walkingstalkingrobots.com/homepage</loc>
+      <lastmod>2025-11-09</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_fourth_of_july_show_large_crowd.jpg</image:loc>
+        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing for a big croud on the US holiday Indenpence Day, or the Fourth of July.</image:title>
+        <image:caption>Walking Stalking Robots Playing on the Fourth of July</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_fourth_of_july_side_profile.jpg</image:loc>
+        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing for a big croud on the US holiday Indenpence Day, or the Fourth of July.</image:title>
+        <image:caption>Walking Stalking Robots Playing on the Fourth of July</image:caption>
+      </image:image> 
+     <image:image>
+        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_house_show.jpg</image:loc>
+        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing a house show in Portland, Oregon.</image:title>
+        <image:caption>Walking Stalking Robots House Show</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.walkingstalkingrobots.com/img/walking_stalking_robots_live_at_kellys_olympian_portland_oregon.jpg</image:loc>
+        <image:title>Walking Stalking Robots (Tarl Heddleston , Paul Hubbard and Scott Warner) playing live at Kelly's Olympian in Portland Oregon.</image:title>
+        <image:caption>Walking Stalking Robots Playing at Kelly's Olympian in Portland, Oregon</image:caption>
+      </image:image> 
+   </url>
 </urlset>

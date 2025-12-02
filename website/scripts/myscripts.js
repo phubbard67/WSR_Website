@@ -46,8 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const thisYear = new Date().getFullYear();
         currentYear.textContent = thisYear;
       }
-
-      getWeatherInfo();
 });
 //---End Event Handlers 
 

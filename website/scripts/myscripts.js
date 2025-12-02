@@ -49,26 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const thisYear = new Date().getFullYear();
         currentYear.textContent = thisYear;
       }
-
-      const request = require('request');
-      var API_KEY = 'cee21d7bcdb1e3973d14849c3cda02b4';
-    
-      const apiKey = 'cee21d7bcdb1e3973d14849c3cda02b4'; 
-      const city = 'Portland'; 
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; 
-      fetch(url)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`Network response was not ok: ${response.statusText}`);
-          }
-          return response.json();
-        })
-        .then(data => {
-          console.log(`Cloud Percentage in ${city}: ${data.clouds.all}%`);
-        })
-        .catch(error => {
-          console.error('There was a problem with your fetch operation:', error);
-        });
 });
 //---End Event Handlers 
 

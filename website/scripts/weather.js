@@ -32,8 +32,8 @@ async function getData() {
 
       for(i = 0; i < images.length; ++i)
       {
-        console.log(images[i]);
-        images[i].style.filter = `grayscale(${newGrayScale})`;
+        console.log(newGrayScale);
+        images[i].style.filter = `grayscale(${newGrayScale}%)`;
       }
       
     } catch (error) {

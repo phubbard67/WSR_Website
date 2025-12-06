@@ -16,11 +16,11 @@ async function getData() {
       
       const result = await response.json();
       console.log(result);
-      
+
       newGrayScale = 0;
       if(result)
       {
-        newGrayScale = result.body.clouds;
+        newGrayScale = result.clouds;
       }
       else
       {

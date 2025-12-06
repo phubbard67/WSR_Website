@@ -19,13 +19,13 @@ async function getData() {
       console.log(result.clouds.all)
 
       newGrayScale = 0;
-      if(result.clouds.all)
+      if(result.clouds.all > 40)
       {
         newGrayScale = result.clouds.all;
       }
       else
       {
-        newGrayScale = 90;
+        newGrayScale = 40;
       }
 
       images = document.getElementsByClassName("item");

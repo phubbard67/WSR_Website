@@ -20,7 +20,7 @@ async function getData() {
       newGrayScale = 0;
       if(result)
       {
-        newGrayScale = result.clouds;
+        newGrayScale = result.clouds.all;
       }
       else
       {

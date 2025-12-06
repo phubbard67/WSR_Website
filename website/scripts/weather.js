@@ -19,7 +19,7 @@ async function getData() {
       console.log(result.clouds.all)
 
       newGrayScale = 0;
-      if(result)
+      if(result.clouds.all)
       {
         newGrayScale = result.clouds.all;
       }

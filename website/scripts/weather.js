@@ -25,12 +25,12 @@ async function UseRandomPowerToUpdateImages() {
       else if(result.clouds.all == 100)
       {
         newGrayScale = result.clouds.all;
-        console.log("Wow. another day of 100% cloud coverage in Portland.");
+        console.log("Wow.\nAnother day of 100% cloud coverage in Portland.\n");
       }
       else if(result.clouds.all == 0)
       {
         newGrayScale = result.clouds.all;
-        console.log("WHAT THE FUCK?!?!??!?!?!?! ZERO CLOUDS IN PORTLAND TODAY?!?!?! PARTY!!!!");
+        console.log("WHAT THE FUCK?!?!??!?!?!?!\n    ZERO CLOUDS IN PORTLAND TODAY?!?!?!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!PARTY!!!!!!!!!!!!!!!!!!!!!\n");
       }
       else
       {

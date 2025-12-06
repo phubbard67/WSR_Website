@@ -185,7 +185,6 @@ Contact
 	text-align: center;
 	border-bottom: 1px solid #999;
 	margin: 0 1em;
-	padding-bottom:
 }
 
 .contact a{
@@ -249,7 +248,7 @@ FOOTER
 			border-radius: 5%;
 			border-style: 1px solid;
 			border-color: #444;
-	    display: inline-block;
+	        display: inline-block;
 			position: relative;
 	}
 

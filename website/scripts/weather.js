@@ -29,10 +29,10 @@ async function getData() {
       }
 
       images = document.getElementsByClassName("item");
-      
+
       for(i = 0; i < images.length; ++i)
       {
-        image[i].style.filter = `grayscale(${newGrayScale}%)`;
+        images[i].style.filter = `grayscale(${newGrayScale}%)`;
       }
       
     } catch (error) {

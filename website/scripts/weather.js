@@ -29,7 +29,7 @@ async function getData() {
       }
       newGrayScale = 0;
 
-      images = document.getElementsByClassName("item");
+      images = document.getElementsByClassName("image");
 
       for(i = 0; i < images.length; ++i)
       {

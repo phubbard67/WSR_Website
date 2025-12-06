@@ -26,7 +26,7 @@ async function UseRandomPowerToUpdateImages() {
       else if(result.clouds.all == 0)
       {
         newGrayScale = result.clouds.all;
-        console.log("WHAT THE FUCK?!?!??!?!?!?!\n    ZERO CLOUDS IN PORTLAND TODAY?!?!?!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!PARTY!!!!!!!!!!!!!!!!!!!!!\n");
+        console.log("WHAT THE FUCK?!?!??!?!?!?!\n    ZERO CLOUDS IN PORTLAND TODAY?!?!?!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!PARTY!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
       }
       else if(result.clouds.all > grayScaleMin)
       {

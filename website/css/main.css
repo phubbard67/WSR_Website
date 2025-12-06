@@ -13,15 +13,18 @@ body {
 	padding: 0;
 	max-width: 100%;
 }
- a{
+
+a{
 	text-decoration: none;
 }
+
 .handpic img {
 	margin: 9em 2em 9.5em 0;
 	margin-right: 2em;
 	max-height: 400px;
 	max-width: 100%;
 }
+
 .click{
 	font-family: "Bebas Neue", sans-serif;
 	color: black;

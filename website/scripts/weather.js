@@ -14,7 +14,7 @@ async function getData() {
         throw new Error(`Response status: ${response.status}`);
       }
       
-      const result = await response.json;
+      const result = await response.json();
       newGrayScale = 0;
       if(result)
       {

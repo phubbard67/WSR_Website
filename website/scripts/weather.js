@@ -1,4 +1,4 @@
-import request from '../../node_modules/request';
+import request from './request';
 var API_KEY = 'cee21d7bcdb1e3973d14849c3cda02b4';
 const CToFHeight = function(Cels)
 {

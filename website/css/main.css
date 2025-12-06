@@ -31,7 +31,6 @@ body {
 /******************
 Carousel styles
 *******************/
-
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */
@@ -53,75 +52,77 @@ Carousel styles
 		}
 }
 
-
 /******************
 LEARN MORE
 *******************/
 
-	.learn-more {
-		background: #2d2d30;
-		padding: 0 0 4em 0;
-		line-height: 1.5em;
-		color: #fff;
-		margin-bottom: 5px;
+.learn-more {
+	background: #2d2d30;
+	padding: 0 0 4em 0;
+	line-height: 1.5em;
+	color: #fff;
+	margin-bottom: 5px;
 }
 
-	.learn-more p {
-		padding-bottom: 1em;
-		font-family: 'Fredericka the Great', cursive;
-		font-size: 1.2em;
-		font-weight:bold;
-	}
-	.learn-more h2 {
-		font-family: "Bebas Neue", sans-serif;
-		font-size: 35px;
-		font-weight:bold;
-		text-align: center;
-		padding-bottom: 1em;
-		border-bottom: 1px solid #999;
-		margin: 0 3em;
+.learn-more p {
+	padding-bottom: 1em;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.2em;
+	font-weight:bold;
 }
-	.learn-more a{
-		color: white;
-		text-decoration: none;
-		font-size: 1.8em;
-	}
-	.links a {
-		text-decoration: none;
-		text-align: center;
-		margin: 2em auto;
-		color: #B8B7B7;
-		transition-property: color;
-		-webkit-duration: 2s;
-		-moz-duration: 2s;
-		-o-duration: 2s;
-		transition-duration: 2s;
-}
-	.links a.selected, a:hover {
-		text-decoration: none;
-		color: #fff;
-		text-shadow: none;
-		-webkit-duration: 1s;
-		-moz-duration: 1s;
-		-o-duration: 1s;
-		transition-property: color;
-		transition-duration: 1s;
-	}
-	.links{
-		margin-top: 2em;
-		padding-bottom: 3em;
 
+.learn-more h2 {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 35px;
+	font-weight:bold;
+	text-align: center;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #999;
+	margin: 0 3em;
 }
-	#shows{
-		padding-top: 16%;
-		background: #2d2d30;
-	}
 
+.learn-more a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.8em;
+}
+
+.links a {
+	text-decoration: none;
+	text-align: center;
+	margin: 2em auto;
+	color: #B8B7B7;
+	transition-property: color;
+	-webkit-duration: 2s;
+	-moz-duration: 2s;
+	-o-duration: 2s;
+	transition-duration: 2s;
+}
+
+.links a.selected, a:hover {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: none;
+	-webkit-duration: 1s;
+	-moz-duration: 1s;
+	-o-duration: 1s;
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+.links{
+	margin-top: 2em;
+	padding-bottom: 3em;
+}
+	
+#shows{
+	padding-top: 16%;
+	background: #2d2d30;
+}
 
 /******************
 Music
 *******************/
-
 #music{
 	padding-top: 16%;
 	background: white;
@@ -158,10 +159,10 @@ Music
 #MusicStream{
 	border-radius: 50%;
 }
+
 /******************
 Contact
 *******************/
-
 .contact{
     padding-top: 15%;
     padding-bottom: 40%;
@@ -197,45 +198,49 @@ Contact
 /******************
 FOOTER
 *******************/
-	.nav{
-		margin-top: 100px;
-	}
-	.footer{
-		font-family: "Bebas Neue", sans-serif;
-		padding: .7em 0;
-		color: black;
-	}
-	.footer a{
-		padding: 1em 0;
-		font-family: 'Fredericka the Great', cursive;
-		color: #2d2d30;
-		font-size: 1.2em;
-	}
-	.nav img {
-		margin: 0 5px 5px 5px;
-	}
-	.nav a:hover{
-		text-decoration: none;
-	}
+.nav{
+	margin-top: 100px;
+}
 
-	/**********************
-	BUTTON STYLE
-	***********************/
-	.dropbtn {
-		font-family: "Bebas Neue", sans-serif;
-	    color: black;
-	    padding: 16px;
-			border: none;
-			color: white;
-			background-color: inherit;
-			margin-left: 10px;
-			border-radius: 0;
-			font-size: 30px;
-			padding: 7px;
-	    cursor: pointer;
-	}
+.footer{
+	font-family: "Bebas Neue", sans-serif;
+	padding: .7em 0;
+	color: black;
+}
 
-	.navbar {
+.footer a{
+	padding: 1em 0;
+	font-family: 'Fredericka the Great', cursive;
+	color: #2d2d30;
+	font-size: 1.2em;
+}
+
+.nav img {
+	margin: 0 5px 5px 5px;
+}
+
+.nav a:hover{
+	text-decoration: none;
+}
+
+/**********************
+BUTTON STYLE
+***********************/
+.dropbtn {
+	font-family: "Bebas Neue", sans-serif;
+    color: black;
+    padding: 16px;
+	border: none;
+	color: white;
+	background-color: inherit;
+	margin-left: 10px;
+	border-radius: 0;
+	font-size: 30px;
+	padding: 7px;
+    cursor: pointer;
+}
+
+.navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
@@ -245,64 +250,66 @@ FOOTER
 }
 
 .dropdown {
-		float: left;
-		border-radius: 5%;
-		border-style: 1px solid;
-		border-color: #444;
-	    display: inline-block;
-		position: relative;
+	float: left;
+	border-radius: 5%;
+	border-style: 1px solid;
+	border-color: #444;
+	position: relative;
 }
 
 .dropdown-content {
-		font-family: 'Fredericka the Great', cursive;
-		font-weight:bold;
-			font-size: 1.7em;
-	    display: none;
-			position: absolute;
-	    background-color: #f9f9f9;
-	    min-width: 120px;
-	    overflow: auto;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family: 'Fredericka the Great', cursive;
+	font-weight:bold;
+	font-size: 1.7em;
+    display: none;
+	position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.show {display:block;}
-
-
+.show {
+	display:block;
+}
 
 /***********************
 VIDEO STYLES
 ************************/
+#video {
+	color: black;
+	font-size: 1.65em;
+	font-family: "Amatic SC", cursive;
+	padding-top: 100px;
+}
 
-	#video {
-		color: black;
-		font-size: 1.65em;
-		font-family: "Amatic SC", cursive;
-		padding-top: 100px;
+#video iframe{
+	height: 10em;
+	width: 13em;
+}
 
-	}
-	#video iframe{
-		height: 10em;
-		width: 13em;
-	}
-	.nav-video{
-		margin-top: 100px;
-	}
-	.footer-video{
-		padding: .7em 0;
-		color: #333;
-		font-family: "Amatic SC", cursive;
-		font-size: 20px;
-	}
-	.nav-video img {
-		margin: 0 5px 5px 5px;
-	}
-	.nav-video a:hover{
-		text-decoration: none;
-	}
+.nav-video{
+	margin-top: 100px;
+}
+
+.footer-video{
+	padding: .7em 0;
+	color: #333;
+	font-family: "Amatic SC", cursive;
+	font-size: 20px;
+}
+
+.nav-video img {
+	margin: 0 5px 5px 5px;
+}
+
+.nav-video a:hover{
+	text-decoration: none;
+}

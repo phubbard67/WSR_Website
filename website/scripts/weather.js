@@ -14,7 +14,22 @@ async function getData() {
         throw new Error(`Response status: ${response.status}`);
       }
       
-      document.getElementsByClassName("item").style.filter = "grayscale(0%)";
+      const result = await response.json;
+      newGrayScale = 0;
+      if(result)
+      {
+        newGrayScale = result.body.clouds;
+      }
+      else
+      {
+        newGrayScale = 90;
+      }
+      images = document.getElementsByClassName("item");
+      newGrayscale = DataTransfer.body.clouds;
+      for(i = 0; i < images.length; ++i)
+      {
+        image[i].style.filter = `grayscale(${newGrayScale}%)`;
+      }
       
     } catch (error) {
       console.error(error.message);

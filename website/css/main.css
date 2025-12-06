@@ -50,9 +50,10 @@ Carousel styles
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
 
     }
-		#myCarousel{
-			margin-top: 4em;
-		}
+
+	#myCarousel{
+		margin-top: 4em;
+	}
 }
 
 /******************
@@ -156,7 +157,7 @@ Music
 .music a{
 	color: white;
 	text-decoration: none;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 #MusicStream{

@@ -7,6 +7,7 @@ async function UseRandomPowerToUpdateImages() {
     const apiKey = 'cee21d7bcdb1e3973d14849c3cda02b4'; 
     const city = 'Portland'; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const grayScaleMin = 10;
 
     try {
       const response = await fetch(url);
@@ -15,24 +16,31 @@ async function UseRandomPowerToUpdateImages() {
       }
       
       const result = await response.json();
-      console.log(result);
-      console.log(result.clouds.all)
 
       newGrayScale = 0;
-      if(result.clouds.all > 10)
+      if(result.clouds.all > grayScaleMin)
       {
         newGrayScale = result.clouds.all;
       }
+      else if(result.clouds.all == 100)
+      {
+        newGrayScale = result.clouds.all;
+        console.log("Wow. another day of 100% cloud coverage in Portland.");
+      }
+      else if(result.clouds.all == 0)
+      {
+        newGrayScale = result.clouds.all;
+        console.log("WHAT THE FUCK?!?!??!?!?!?! ZERO CLOUDS IN PORTLAND TODAY?!?!?! PARTY!!!!");
+      }
       else
       {
-        newGrayScale = 10;
+        newGrayScale = grayScaleMin;
       }
 
       images = document.getElementsByClassName("image");
 
       for(i = 0; i < images.length; ++i)
       {
-        console.log(newGrayScale);
         images[i].style.filter = `grayscale(${newGrayScale}%)`;
       }
       

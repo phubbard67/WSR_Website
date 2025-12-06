@@ -33,7 +33,7 @@ async function getData() {
 
       for(i = 0; i < images.length; ++i)
       {
-        images[i].style.filter = `grayscale(${newGrayScale}%)`;
+        images[i].style.filter = `grayscale(0%)`;
       }
       
     } catch (error) {

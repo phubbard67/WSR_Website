@@ -1,4 +1,4 @@
-const request = require('request');
+import request from require('request');
 var API_KEY = 'cee21d7bcdb1e3973d14849c3cda02b4';
 const CToFHeight = function(Cels)
 {

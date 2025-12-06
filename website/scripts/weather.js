@@ -14,7 +14,7 @@ async function getData() {
         throw new Error(`Response status: ${response.status}`);
       }
       
-      document.getElementById("image").style.filter = "grayscale(0%)";
+      document.getElementByClassName("item").style.filter = "grayscale(0%)";
       
     } catch (error) {
       console.error(error.message);

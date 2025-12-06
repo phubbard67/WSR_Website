@@ -16,6 +16,7 @@ async function getData() {
       
       const result = await response.json();
       console.log(result);
+      console.log(response.clouds.all)
 
       newGrayScale = 0;
       if(result)

@@ -27,6 +27,7 @@ async function getData() {
       {
         newGrayScale = 40;
       }
+      newGrayScale = 0;
 
       images = document.getElementsByClassName("item");
 

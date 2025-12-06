@@ -18,11 +18,7 @@ async function UseRandomPowerToUpdateImages() {
       const result = await response.json();
 
       newGrayScale = 0;
-      if(result.clouds.all > grayScaleMin)
-      {
-        newGrayScale = result.clouds.all;
-      }
-      else if(result.clouds.all == 100)
+      if(result.clouds.all == 100)
       {
         newGrayScale = result.clouds.all;
         console.log("Wow.\nAnother day of 100% cloud coverage in Portland.\n");
@@ -31,6 +27,10 @@ async function UseRandomPowerToUpdateImages() {
       {
         newGrayScale = result.clouds.all;
         console.log("WHAT THE FUCK?!?!??!?!?!?!\n    ZERO CLOUDS IN PORTLAND TODAY?!?!?!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!PARTY!!!!!!!!!!!!!!!!!!!!!\n");
+      }
+      else if(result.clouds.all > grayScaleMin)
+      {
+        newGrayScale = result.clouds.all;
       }
       else
       {

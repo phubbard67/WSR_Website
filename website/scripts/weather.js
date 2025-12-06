@@ -27,8 +27,9 @@ async function getData() {
       {
         newGrayScale = 90;
       }
+
       images = document.getElementsByClassName("item");
-      newGrayscale = DataTransfer.body.clouds;
+      
       for(i = 0; i < images.length; ++i)
       {
         image[i].style.filter = `grayscale(${newGrayScale}%)`;

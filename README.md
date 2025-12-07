@@ -14,10 +14,12 @@ This website and its code is copywritten under the [Digital Millennium Copywrigh
 ## Contact
 The Band: 
 [WalkingSalkingRobots.com](https://walkingstalkingrobots.com)
+
 Email:
 walkingstalkingrobots@gmail.com
 
 The Creator: 
 [ME](https://github.com/phubbard67)
+
 Email: 
 phubbard67@gmail.com

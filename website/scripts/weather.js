@@ -67,6 +67,6 @@ document.addEventListener('DOMContentLoaded', function () {
     //This function uses a "real" random number produced by the 
     //  weather to update the grayscale of the images. when it is cloudy, 
     //  the images are more gray, and less clouds, less gray, but it will change
-    //  randomly, truley randomly. no more Srand for this guy! R-Rand has begun! :)
+    //  randomly; truley randomly. no more Srand for this guy! R-Rand has begun! :)
     UseRandomPowerToUpdateImages();
 });

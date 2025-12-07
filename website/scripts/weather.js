@@ -35,12 +35,12 @@ async function UseRandomPowerToUpdateImages() {
       if(CurrentCloudPercentInPortland == 100)
       {
         newGrayScale = CurrentCloudPercentInPortland;
-        console.log("Wow.\nAnother day of 100% cloud coverage in Portland.\n");
+        console.log("Wow.\nIt is another very cloudy time in Portland.\nWe are shocked.\n");
       }
       else if(CurrentCloudPercentInPortland == 0)
       {
         newGrayScale = CurrentCloudPercentInPortland;
-        console.log("WHAT THE FUCK?!?!??!?!?!?!\n    ZERO CLOUDS IN PORTLAND TODAY?!?!?!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!PARTY!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+        console.log("WHAT THE FUCK?!?!??!?!?!?!\n    ZERO CLOUDS IN PORTLAND RIGHT NOW?!?!?!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!PARTY!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
       }
       else if(CurrentCloudPercentInPortland > grayScaleMin)
       {

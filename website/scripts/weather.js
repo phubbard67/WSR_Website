@@ -19,7 +19,7 @@ async function UseRandomPowerToUpdateImages() {
 
     try {
       const response = await fetch(options.PortlandForecastGridData, {
-        method: "POST", 
+        method: "GET", 
         headers: {
           "User-Agent" : "(https://walkingstalkingrobots.com, walkingstalkingrobots@gmail.com)"
         }

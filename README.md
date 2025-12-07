@@ -2,7 +2,7 @@
 I built this website for my band Walking Stalking Robots
 
 ## Technologies Used
-The project was built as a Node JS application and used some open source designs from [W3Schools](https://www.w3schools.com/) while also utilizing [Bootstrap](https://getbootstrap.com/).
+The project was built as a Node JS application and used some open source designs from [W3Schools](https://www.w3schools.com/) while also utilizing [Bootstrap](https://getbootstrap.com/). I also used HTML, CSS and JavaScript, but that is pretty obvious... 
 
 It also uses some weather information from [NOAA](https://www.noaa.gov) as a random number generator. 
 

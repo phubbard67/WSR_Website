@@ -4,6 +4,7 @@ const CToFHeight = function(Cels)
 } 
 
 const options = {
+  //This is the lat and long of the 'Welcome to Portland' sign, if you were curious. 
   latitude: 45.5233729,
   longitude: -122.6885142,
   PortlandOrWeatherOptionsUrl: 'https://api.weather.gov/points/45.5233729,-122.6885142',

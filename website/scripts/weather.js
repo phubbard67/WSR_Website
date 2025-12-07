@@ -31,8 +31,6 @@ async function UseRandomPowerToUpdateImages() {
       const result = await response.json();
       const CurrentCloudPercentInPortland = result.properties.skyCover.values[0].value;
 
-      console.log(CurrentCloudPercentInPortland);
-
       newGrayScale = 0;
       if(CurrentCloudPercentInPortland == 100)
       {

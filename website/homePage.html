@@ -168,7 +168,7 @@
       <div class="w3-container w3-content" style="max-width:800px">
         <h2>CONTACT</h2>
         <p><i>Feel Free To Reach Out</i></p>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
               <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                 <div class="w3-half">
                   <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -178,6 +178,9 @@
                 </div>
               </div>
               <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                </p>
+                <div data-netlify-recaptcha="true"></div>
+                <p>
               <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
             </form>
             <p></p>

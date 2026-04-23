@@ -13,7 +13,7 @@ This website and its code is copywritten under the [Digital Millennium Copywrigh
 
 ## Contact
 The Band: 
-[WalkingSalkingRobots.com](https://walkingstalkingrobots.com)
+[WalkingStalkingRobots.com](https://walkingstalkingrobots.com)
 
 Email:
 walkingstalkingrobots@gmail.com
